@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Code Academy\MVC Front-to-back\MVCIntro
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Code Academy/MVC Front-to-back/MVCIntro/Views/Blog/Blog.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nLmNzaHRtbA==
+[E:/Code Academy/MVC Front-to-back/MVCIntro/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Code Academy/MVC Front-to-back/MVCIntro/Views/Home/Index.cshtml]
