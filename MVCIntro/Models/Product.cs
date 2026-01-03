@@ -9,4 +9,6 @@ public class Product : BaseEntity
     public string? PrimaryImage { get; set; }
     public string? SecondaryImage { get; set; }
     public int Rating { get; set; }
+    public string? Description { get; set; }
+    public List<Category>? Categories { get; set; }
 }

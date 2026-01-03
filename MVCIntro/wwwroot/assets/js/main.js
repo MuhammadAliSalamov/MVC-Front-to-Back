@@ -141,11 +141,12 @@
     );
 
     /* --- Product Slider--- */
+    /*------------Burada loop sondurun hemise--------------------*/
     if ($('.product-slider').elExists()) {
         var mySwiper = new Swiper('.product-slider', {
             slidesPerView: 4,
             spaceBetween: 30,
-            loop: true,
+            loop: false,
             navigation: {
                 nextEl: '.product-button-next',
                 prevEl: '.product-button-prev',
