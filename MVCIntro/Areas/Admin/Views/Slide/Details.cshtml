@@ -1,0 +1,67 @@
+@using MVCIntro.Models
+@model Slide
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="container-fluid">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 d-flex justify-content-between align-items-center">
+            <h6 class="m-0 font-weight-bold text-primary">Slide Details: @Model.Title</h6>
+            <a asp-action="Index" class="btn btn-sm btn-secondary">
+                <i class="fas fa-arrow-left"></i> Back to List
+            </a>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="mb-3">
+                        <label class="font-weight-bold d-block">Slide Image</label>
+                        <img src="~/assets/images/slider/@Model.ImageUrl" 
+                             alt="@Model.Title" 
+                             class="img-thumbnail shadow-sm" 
+                             style="max-width: 100%; height: auto; border-radius: 10px;" />
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                                <th style="width: 200px;">ID</th>
+                                <td>@Model.Id</td>
+                            </tr>
+                            <tr>
+                                <th>Title</th>
+                                <td class="text-primary font-weight-bold">@Model.Title</td>
+                            </tr>
+                            <tr>
+                                <th>Discount</th>
+                                <td>
+                                    <span class="text-success font-weight-bold">
+                                        @Model.Discount.ToString("C")
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Description</th>
+                                <td>
+                                    <p class="text-muted" style="white-space: pre-wrap;">@Model.Description</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Order</th>
+                                <td>@Model.Order</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <div class="mt-4">
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                            <i class="fas fa-edit"></i> Edit Product
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -853,12 +853,20 @@
       "PackagePath": "staticwebassets\\assets\\images\\sidebar\\banner\\1-270x300.jpg"
     },
     {
+      "Id": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\4a00aa7c-234b-484c-968d-088a1e4d199bSticker3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\4a00aa7c-234b-484c-968d-088a1e4d199bSticker3.png"
+    },
+    {
       "Id": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\bg\\1-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\bg\\1-1.jpg"
     },
     {
       "Id": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\bg\\2-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\bg\\2-1.jpg"
+    },
+    {
+      "Id": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\fe9c4751-c957-4dcf-b98c-d0da77e54736ангел.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\fe9c4751-c957-4dcf-b98c-d0da77e54736ангел.png"
     },
     {
       "Id": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\inner-img\\1-1-524x617.png",

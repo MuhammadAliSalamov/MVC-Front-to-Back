@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y+upvYhayng8cYZa6ZMshWjDOsFvUomzLGSwvI9ls8w=",
+  "Hash": "tYouGirUx+Ll+U8osnZWtMFurpyj+kPNO7rq8QHxLfE=",
   "Source": "MVCIntro",
   "BasePath": "_content/MVCIntro",
   "Mode": "Default",
@@ -4064,6 +4064,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\sidebar\\banner\\1-270x300.jpg"
     },
     {
+      "Identity": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\4a00aa7c-234b-484c-968d-088a1e4d199bSticker3.png",
+      "SourceId": "MVCIntro",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\",
+      "BasePath": "_content/MVCIntro",
+      "RelativePath": "assets/images/slider/4a00aa7c-234b-484c-968d-088a1e4d199bSticker3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\4a00aa7c-234b-484c-968d-088a1e4d199bSticker3.png"
+    },
+    {
       "Identity": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\bg\\1-1.jpg",
       "SourceId": "MVCIntro",
       "SourceType": "Discovered",
@@ -4100,6 +4119,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\bg\\2-1.jpg"
+    },
+    {
+      "Identity": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\fe9c4751-c957-4dcf-b98c-d0da77e54736ангел.png",
+      "SourceId": "MVCIntro",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\",
+      "BasePath": "_content/MVCIntro",
+      "RelativePath": "assets/images/slider/fe9c4751-c957-4dcf-b98c-d0da77e54736ангел.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\fe9c4751-c957-4dcf-b98c-d0da77e54736ангел.png"
     },
     {
       "Identity": "E:\\Code Academy\\MVC Front-to-back\\MVCIntro\\wwwroot\\assets\\images\\slider\\inner-img\\1-1-524x617.png",

@@ -6,14 +6,13 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Categories</h4>
-                        <button type="button" class="btn btn-success btn-fw mb-3">
+                        <a asp-controller="Category" asp-action="Create" class="btn btn-success btn-fw mb-3">
                             <b class="mdi mdi-plus">Add Category</b>
-                        </button>
+                        </a>
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
                                         <th>ID</th>
                                         <th>Name</th>
                                         <th>Created</th>
@@ -39,17 +38,17 @@
                                                 }
                                             </td>
                                             <td>
-                                                <button type="button" class="btn btn-danger btn-fw mb-3">
+                                                <a asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id" type="button" class="btn btn-danger btn-fw mb-3">
                                                     <i class="mdi mdi-delete"></i>
-                                                </button>
+                                                </a>
 
-                                                <button type="button" class="btn btn-warning btn-fw mb-3">
+                                                <a asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id" type="button" class="btn btn-warning btn-fw mb-3">
                                                     <i class="mdi mdi-pencil"></i>
-                                                </button> 
+                                                </a>
 
-                                                <button type="button" class="btn btn-info btn-fw mb-3">
+                                                <a asp-controller="Category" asp-action="Details" asp-route-id="@category.Id" type="button" class="btn btn-info btn-fw mb-3">
                                                     <i class="mdi mdi-information"></i>
-                                                </button>
+                                                </a>
                                             </td>
                                         </tr>
                                     }                                   
