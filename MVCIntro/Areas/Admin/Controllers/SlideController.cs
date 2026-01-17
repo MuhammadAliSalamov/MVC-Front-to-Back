@@ -1,6 +1,7 @@
 namespace MVCIntro.Areas.Admin.Controllers;
 
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVCIntro.Areas.Admin.ViewModels.Slider;
@@ -11,6 +12,7 @@ using MVCIntro.Utilities.Extensions;
 
 
 [Area("Admin")]
+[Authorize(Roles = "Admin , Moderator")]
 public class SlideController : Controller
 {
     private readonly AppDbContext _context;
@@ -30,6 +32,7 @@ public class SlideController : Controller
         return View();
     }
     [HttpPost]
+
     public async Task<ActionResult> Create(CreateSlideVM createSlideVM)
     {
         if (!ModelState.IsValid)
@@ -128,7 +131,6 @@ public class SlideController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
-
     public async Task<IActionResult> Delete(int id)
     {
         Slide slide = await _context.Slides.FindAsync(id);

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVCIntro.Areas.Admin.ViewModels.Category;
@@ -7,6 +8,7 @@ using MVCIntro.Models;
 namespace MVCIntro.Areas.Admin.Controllers;
 
 [Area("Admin")]
+[Authorize(Roles = "Admin , Moderator")]
 public class CategoryController : Controller
 {
     public readonly AppDbContext _context;
